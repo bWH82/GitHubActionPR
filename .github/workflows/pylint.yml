@@ -1,10 +1,8 @@
 name: Setup Python
 on: 
   - workflow_dispatch
-
 jobs:
-  
-  lintingOperation:
+    lintingOperation:
    run-on: ubuntu-latest
 steps:
   - uses: actions/checkout@v6
