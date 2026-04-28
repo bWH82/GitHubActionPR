@@ -1,5 +1,4 @@
 - name: Setup Python
-
 on: 
   - workflow_dispatch
 
